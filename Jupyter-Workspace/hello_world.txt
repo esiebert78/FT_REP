@@ -1,0 +1,1 @@
+My first line added to a text file in Jupyter lab.
