@@ -1,0 +1,46 @@
+Consider the files F-F_Research_Data_Factors.txt and 6_Portfolios_2x3.txt. The former contains
+monthly observations of Fama and French’s factors, rm,t  rf ,t, rSMB,t and rHML,t. The latter contains the
+corresponding observations of the returns on 6 different portfolios of US stocks. The 6 portfolios are:
+Small-Low (containing stocks with small capitalization and low book-to-market value ratios); Small-Mid
+(containing stocks with small capitalization and mid book-to-market value ratios); Small-High (containing
+stocks with small capitalization and high book-to-market value ratios); Big-Low (containing stocks with
+large capitalization and low book-to-market value ratios); Big-Mid (containing stocks with large capitalization and mid book-to-market value ratios); Big-High (containing stocks with large capitalization and
+high book-to-market value ratios).
+
+OrderedDict([('VGLT', 0.00266),
+             ('SHY', -0.00051),
+             ('UUP', 0.02906),
+             ('STIP', -0.00209),
+             ('GLD', 0.47372),
+             ('SPY', 0.03675),
+             ('VWO', 0.34615),
+             ('USRT', -0.02147),
+             ('BIZD', 0.12828),
+             ('IWM', 0.00677),
+             ('DBO', 0.00069)])
+
+OrderedDict([('VGLT', -0.01502),
+             ('SHY', -0.01),
+             ('UUP', -0.01472),
+             ('STIP', -0.09021),
+             ('GLD', 0.05088),
+             ('SPY', 0.10562),
+             ('VWO', 0.68554),
+             ('USRT', -0.00232),
+             ('BIZD', 0.19513),
+             ('IWM', 0.05615),
+             ('DBO', 0.03895)])
+
+#### Asset Class	 	SYM	Risk	Return	Weight (Initial)
+#### Large Cap US	        SPY     MED	MED	20%
+#### Small Cap US	        IWM	HIGH	MED	10%
+#### Emerging Markets	        VWO	HIGH	HIGH	10%
+#### Private Equity	        BIZD	HIGH	HIGH	10%
+#### Real Estate (REIT)         USRT	HIGH	HIGH	10%
+#### Gold	                GLD	MED	MED	10%
+#### Crypto Currency	        BLOK	HIGH	HIGH	10%
+#### US Treasuries-LT	        VGLT	LOW	MED	5%
+#### US Treasuries-TIPS         STIP	LOW	LOW	5%
+#### Currency (US Index)        UUP	MED	MED	5%
+#### Crude Oil        	        DBO	HIGH	MED	5%
+#### US Treasuries-ST	        SHY	LOW	LOW	0%
